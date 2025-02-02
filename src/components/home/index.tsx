@@ -3,9 +3,9 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <button> settings </button>
-            <button> tasks </button>
-            <button> events </button>
+            <button className ="button__style"> settings </button>
+            <button className ="button__style"> tasks </button>
+            <button className ="button__style"> events </button>
         </div>
     )
 }
