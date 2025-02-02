@@ -1,11 +1,13 @@
 import React from 'react';
+import "./button.css"
+
 
 const Home = () => {
     return (
         <div>
-            <button className ="button__style"> settings </button>
-            <button className ="button__style"> tasks </button>
-            <button className ="button__style"> events </button>
+            <button className ="button"> settings </button>
+            <button className ="button"> tasks </button>
+            <button className ="button"> events </button>
         </div>
     )
 }
