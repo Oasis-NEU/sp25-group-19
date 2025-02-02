@@ -1,0 +1,9 @@
+.button-container {
+    position: fixed; /* Use 'fixed' if you want it to stay in place while scrolling */
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row; /* Arrange buttons in a row */
+    gap: 10px; /* Add space between buttons */
+  }
+  
