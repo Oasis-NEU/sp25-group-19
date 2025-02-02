@@ -2,10 +2,10 @@ import React from 'react';
 import './index.css';
 const Home = () => {
     return (
-        <div className = "button-container"> 
+        <div>
             <button> settings </button>
             <button> tasks </button>
-            <button> events </button>    
+            <button> events </button>
         </div>
     )
 
