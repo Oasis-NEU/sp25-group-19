@@ -1,10 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Home from "./components/home/index.tsx";
-import SettingsPage from "./components/settings/index.tsx"; 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/home';
@@ -15,21 +8,6 @@ import './App.css';
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <Router>
-
-  <Routes>
-    <Route path="/home" element={<HomePage />} />
-    <Route path="/settings" element={<SettingsPage />} />
-  </Routes>
-  {/* ✅ Correctly Placed Button Container */}
-
-
-
-</Router>
-  )
 return (
   <Router>
     <nav className = 'button-container'>
