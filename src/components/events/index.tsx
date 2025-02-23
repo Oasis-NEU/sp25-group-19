@@ -16,4 +16,4 @@ export default Events;
 // Types of data it will hold
 // String = Description of what the event is
 // String = When the event happens
-// Add some sort option to allow the event to repeat
+// Boolean = Repeat tasks. If false, no repeat. If true, repeat.
