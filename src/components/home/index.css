@@ -1,6 +1,12 @@
 .heading-style {
     font-family: 'Papyrus', Fantasy;
     font-size: 2em;
+    position : fixed;
+    top : 0;
+    left : 0;
+    padding: '10px 0';
+    text-align : center;
+    z-index : 1000;
 }
 
 body {
