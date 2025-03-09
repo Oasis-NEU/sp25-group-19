@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import supabase from 'C://Users/becky/Documents/sp25-group-19/src/supabaseClient.js';
+import supabase from "C://Users/maryg/OneDrive/Documents/GitHub/sp25-group-19/src/supabaseClient.js"
 
 const Tasks = () => {
   const [tasks, setTasks] = useState([]);
